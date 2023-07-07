@@ -4,10 +4,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
   a {
-    color: #fff;
+    color: #fef4f4;
     text-decoration: none;
     transition: 0.3s;
+    margin-left: 25PX;
+    margin-right: 25px;
   }
   
   a:hover {
@@ -22,22 +30,18 @@
   
   nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #23232e;
+    background: #2e2828;
     height: 8vh;
   }
   
-  main {
-    background: url("bg.jpg") no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-  }
   
   .nav-list {
     list-style: none;
     display: flex;
+  
   }
   
   .nav-list li {
@@ -53,7 +57,7 @@
   .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: #fff;
+    background: #fef3f3;
     margin: 8px;
     transition: 0.3s;
   }
@@ -66,9 +70,9 @@
       position: absolute;
       top: 8vh;
       right: 0;
-      width: 50vw;
-      height: 92vh;
-      background: #23232e;
+      width: 30vw;
+      height: 82vh;
+      background: #2e2828;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
