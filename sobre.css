@@ -132,12 +132,5 @@ main h2{
   font-size: 40px;
 }
 
-Img{
-  height: 250px;
-  border-radius: 20px;
-  position: absolute;
-  align-items: center;
-  left: 43%;
-  top: 120px;
-  border-color: black;
-}
+
+

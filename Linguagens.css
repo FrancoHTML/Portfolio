@@ -140,3 +140,16 @@
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
+
+  .divbotao{
+    text-align: center;
+  }
+  button{
+    padding: 10px;
+    width: 240px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+      
+  }
