@@ -121,16 +121,30 @@ main p{
   margin-left: 25%;
   margin-right: 25%;
   
-
 }
 
 main h2{
   text-align: center;
-
-  margin-top: 10%;
+  margin-top: 2%;
   font-weight: bold;
   font-size: 40px;
 }
 
+.ftp{
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  
+  margin-top: 8%;
 
+}
+
+.rotina{
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  border-radius: 20px;
+  margin-top: 4%;
+  border-color: black;
+}
 
