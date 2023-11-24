@@ -1,6 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -148,4 +147,17 @@ main h2{
   margin-top: 4%;
   border-color: black;
 }
+.divbotao{
+  text-align: center;
+}
+button{
+  padding: 10px;
+  width: 200px;
+  height: 70px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 20px;
+    
+  }
 
