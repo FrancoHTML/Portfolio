@@ -4,7 +4,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
+  .portfolio{
+    margin-top: 20%;
+  }
   .materias{
+    justify-content: center;
     font-family: cursive;
     text-align: center;
     margin-top: 20%;
